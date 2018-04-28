@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <!-- Title Tag -->
+    <title>鸿秀通讯</title>
+
+    <!-- <<Mobile Viewport Code>> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- <<Attched Stylesheets>> -->
+    <link rel="stylesheet" href="css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="css/media.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <!-- <link href='http://fonts.useso.com/css?family=Open+Sans:400,300,600,700,800,600italic' rel='stylesheet' type='text/css'> -->
+
+    <!-- <<Attched Javascripts>> -->
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/core.js"></script>
+    <script type="text/javascript" src="js/modernizr.js"></script>
+
+</head>
+
+<body>
+
+    <div class="DesignHolder">
+
+        <!-- \\ Begin Frame \\ -->
+        <div class="LayoutFrame">
+
+            <header class="header" style="background-image: url('img/header-bg-bak.png')">
+                <div class="Center">
+                    <div class="Top_Bar">
+
+                        <div class="site-logo">
+
+                            <a href="#">
+                                <figure>
+                                    <img src="img/hc.png" alt="Image">
+                                </figure>
+                            </a>
+
+                        </div>
+
+                        <!-- \\ Begin Navigation \\ -->
+                        <nav class="Navigation">
+                            <ul>
+                                <li class="active">
+                                    <a href="index.html">
+                                        <span>主页</span>
+                                    </a>
+                                </li>
+                                <li class="gap">
+                                    <a href="shop.html">
+                                        <span>主营商品</span>
+                                    </a>
+                                </li>
+                                <li class="gap gap1">
+                                    <a href="contact.html">
+                                        <span>联系我们</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                            <figure>
+                                <img src="img/triangle-img.png" alt="Image" class="triangle">
+                            </figure>
+
+                        </nav>
+                        <!-- // End Navigation // -->
+
+                        <div class="clear"></div>
+                    </div>
+                    <div id="info"></div>
+                </div>
+            </header>
+            <!-- <div id="Container">
+                <div id="contact"></div>
+            </div> -->
+        </div>
+    </div>
+    <script>
+        $("#footer").load("frame/footer.html");
+        $("#top_bar").load("frame/top_bar.html");
+        $("#contact").load("frame/about.html");
+        $("#info").load("frame/infos.html");
+    </script>
+</body>
