@@ -53,7 +53,7 @@ body {
 }
 	
 	/* <<< Header >>> */
-	.header { padding: 75px 0px 145px 0px; width: 100%; background: url(../img/header-bg.png) top center no-repeat; }
+	.header { padding: 75px 0px 145px 0px; width: 100%; background: url(../img/header-bg-3.jpg) top center no-repeat; }
 	.header .Center { max-width: 1098px; margin: auto; position: relative; }
 	.header .arrow { position: absolute; bottom: -146px; right: -2px; }
 
@@ -82,7 +82,7 @@ body {
 	.Navigation .triangle { position: absolute; top: 79px; left: 0px; }
 
 	/* <<< Product Section >>> */
-	.Product_sec { width: 100%; overflow: hidden; }
+	.Product_sec {padding-left: 50px; width: 100%; overflow: hidden; }
 	.Product_sec ul { list-style: none; margin: 0px; }
 	.Product_sec li { float: none; padding: 0px ; margin: 0px 0px 82px 0px; width: 100%; display: inline-block; }
 	.Product_sec li:last-child { margin-bottom: 0px; }
