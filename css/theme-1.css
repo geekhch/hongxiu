@@ -53,7 +53,8 @@ body {
 }
 	
 	/* <<< Header >>> */
-	.header { padding: 75px 0px 145px 0px; width: 100%; background: url(../img/header-bg.png) top center no-repeat; }
+	.header {height: 200px; padding: 75px 0px 0px 0px; width: 100%; background: url(../img/header-bg-bak.png) top center no-repeat; }
+	.header #mask{height: 200px; background:   linear-gradient(transparent,rgb(217,235,241)); padding: 0px; margin: 0px;}
 	.header .Center { max-width: 1098px; margin: auto; position: relative; }
 	.header .arrow { position: absolute; bottom: -146px; right: -2px; }
 
@@ -75,14 +76,11 @@ body {
 	.Navigation li.gap a span { padding: 0px 134px 0px 18px; }
 	.Navigation li.gap1 a span { padding: 0px 138px 0px 11px; }
 	
-	
-	
-	
 	.Navigation li:last-child a { padding-right: 0px; }
 	.Navigation .triangle { position: absolute; top: 79px; left: 0px; }
 
 	/* <<< Product Section >>> */
-	.Product_sec { width: 100%; overflow: hidden; }
+	/* .Product_sec { width: 100%; overflow: hidden; }
 	.Product_sec ul { list-style: none; margin: 0px; }
 	.Product_sec li { float: none; padding: 0px ; margin: 0px 0px 82px 0px; width: 100%; display: inline-block; }
 	.Product_sec li:last-child { margin-bottom: 0px; }
@@ -97,15 +95,15 @@ body {
 	.Product_sec li .left .Details { width: 60%; float: left; text-align: right; }
 	.Product_sec li .left .Details h3 { padding-right: 0px; font-size: 24px; color: #1d232c; font-family: 'Open Sans', sans-serif; font-weight: 700; text-transform: uppercase; margin: 0px; line-height: 30px; }
 	.Product_sec li .left .Details h3 span { margin: 0px; font-family: 'Open Sans', sans-serif; font-weight: 300; display: block; }
-	.Product_sec li .left .img { width: 237px; padding: 8px 0px 0px 0px; }
+	.Product_sec li .left .img { width: 237px; padding: 8px 0px 0px 0px; } */
 
 	/* <<< Container >>> */
 	#Container { overflow: hidden; width: 100%; }
 
 	/* <<< Middle Section >>> */
-	.Middle_sec { width: 100%; overflow: hidden; background: #222a36 url(../img/sollication-bg.jpg) top center no-repeat; }
+	.Middle_sec { width: 100%; overflow: hidden; background: rgb(217,235,241) url(#) top center no-repeat; }
 	.Middle_sec .Center { max-width: 1098px; margin: auto; overflow: hidden; }
-	.Middle_sec #Leftside { width: 51.00%; float: left; position: relative; }
+	/* .Middle_sec #Leftside { width: 51.00%; float: left; position: relative; }
 	.Middle_sec #Leftside .Client { width: 374px; text-align: center; padding: 139px 141px 139px 142px; background: url(../img/Client-bg.png) top center no-repeat; margin-top: -1px; }
 	.Middle_sec #Leftside .Client img { margin: auto auto 16px; border-radius: 50%; }
 	.Middle_sec #Leftside .Client h3 { font-size: 14px; color: #fff; margin: 0px; font-family: 'Open Sans', sans-serif; font-weight: 600; text-transform:uppercase; font-style:italic; }
@@ -117,14 +115,14 @@ body {
 	.Middle_sec #Leftside .Client2 { padding: 139px 50px 139px 50px; margin: -3px 0px 0px 0px; text-align: center; background: url(../img/Client-bg.png) top center no-repeat;width: 374px; }
 	.Middle_sec #Leftside .Client2 img { margin: auto auto 16px; border-radius: 50%; }
 	.Middle_sec #Leftside .Client2 p { font-size: 14px; color: #fff; font-family: 'Open Sans', sans-serif; font-style:italic;}
-	.Middle_sec #Leftside .Client2 h3 { font-size: 14px; color: #fff; margin: 0px; font-family: 'Open Sans', sans-serif; text-transform:uppercase; font-weight: 600; font-style:italic; }
+	.Middle_sec #Leftside .Client2 h3 { font-size: 14px; color: #fff; margin: 0px; font-family: 'Open Sans', sans-serif; text-transform:uppercase; font-weight: 600; font-style:italic; } */
 
-	.Middle_sec #Rightside { padding-top: 115px;  width: 46.6%; float: right; }
-	.Middle_sec #Rightside ul { list-style: none; margin: 0px; }
-	.Middle_sec #Rightside li { float: none; padding: 0px 0px 152px 0px; margin: 0px; display: inline-block; }
+	.Middle_sec #Rightside { padding-top: 0px;  width: 100%; float: left; }
+	.Middle_sec #Rightside ul { list-style: none; margin: 0px auto;  }
+	.Middle_sec #Rightside li { float: left; padding: 0px 20px 0px 20px; margin: 0px 30px 30px 30px; }
 	.Middle_sec #Rightside li:last-child { padding-bottom: 0px; }
 	.Middle_sec #Rightside li .Industrial { padding-top: 4px;  float: left; }
-	.Middle_sec #Rightside li .Information { width: 54.5%; float: right; }
+	/* .Middle_sec #Rightside li .Information { width: 54.5%; float: right; }
 	.Information a { color: #fff; }
 	.Middle_sec #Rightside li .Information h4 { font-size: 24px; color: #00b3ae; font-family: 'Open Sans', sans-serif; font-weight: 700; margin: 0px; text-transform:uppercase; line-height: 28px; }
 	.Middle_sec #Rightside li .Information h4 span { display: block; color: #fff; font-family: 'Open Sans', sans-serif; font-weight: 300;}
@@ -133,7 +131,7 @@ body {
 	.Middle_sec #Rightside li .Information li { float: left; padding: 0px; margin: 0px 12px 0px 0px; }
 	.Middle_sec #Rightside li .Information li a { font-size: 15px; background: #1c77c6; color: #fff; width: 28px; height: 28px; display: block; text-align: center; line-height: 28px; text-decoration: none; }
 	.Middle_sec #Rightside li .Information li a .fa-twitter { font-size: 15px; width: 28px; height: 28px; display: block; line-height: 28px; background: #00bff0; }
-	.Middle_sec #Rightside li .Information li a .fa-rss { font-size: 15px; width: 28px; height: 28px; display: block; line-height: 28px; background: #ffb100; }
+	.Middle_sec #Rightside li .Information li a .fa-rss { font-size: 15px; width: 28px; height: 28px; display: block; line-height: 28px; background: #ffb100; } */
 
 	/* <<< Contact Section >>> */
 	.Contact_sec { padding: 100px 0px 0px 0px; position: relative;  width: 100%; overflow: hidden; /*background: url(../img/contact-bg55.png) top center no-repeat;*/ height: 500px; z-index: 9; }
@@ -165,8 +163,3 @@ body {
 	footer .Center { padding: 35px 0px 35px 0px;  max-width: 1180px; margin: auto; text-align: center; }
 	footer p { font-size: 13px; color: #bbbcbc; margin: 0px;  font-family: 'Open Sans', sans-serif; font-weight: 400; }
 	footer a { color: #fff; text-decoration: none; }
-
-	.headline { overflow: hidden; width: 100%; background: #222a36;}
-	.headline .Center { padding: 35px 0px 35px 0px;  max-width: 1180px; margin: auto; text-align: center; }
-	.headline p { font-size: 13px; color: #bbbcbc; margin: 0px;  font-family: 'Open Sans', sans-serif; font-weight: 400; }
-	.headline a { color: #fff; text-decoration: none; }

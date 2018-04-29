@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- <<Attched Stylesheets>> -->
-    <link rel="stylesheet" href="css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="css/theme-1.css" type="text/css" />
     <link rel="stylesheet" href="css/media.css" type="text/css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
     <!-- <link href='http://fonts.useso.com/css?family=Open+Sans:400,300,600,700,800,600italic' rel='stylesheet' type='text/css'> -->
@@ -19,7 +19,8 @@
     <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="js/core.js"></script>
     <script type="text/javascript" src="js/modernizr.js"></script>
-
+<style>
+</style>
 </head>
 
 
@@ -29,7 +30,8 @@
     <div class="DesignHolder">
 
         <!-- \\ Begin Frame \\ -->
-        <header class="header" style="background-image: url('img/header-bg-bak.png')">
+        <header class="header">
+            <div id="mask">
             <div class="Center">
                 <div class="Top_Bar">
 
@@ -75,11 +77,12 @@
                 </div>
                 <!--  -->
             </div>
+            </div>
         </header>
                                 <div class="LayoutFrame">
                                     <div id="Container">
                         
-                                        <div class="Middle_sec" id="About"  style="background-color:white">
+                                        <div class="Middle_sec" id="About">
                                             <div class="Center" id="shop">
                                             </div>
                                         </div>
@@ -92,5 +95,6 @@
         $("#footer").load("frame/footer.html");
         $("#top_bar").load("frame/top_bar.html");
         $("#shop").load("frame/items.html");
+
     </script>
 </body>
